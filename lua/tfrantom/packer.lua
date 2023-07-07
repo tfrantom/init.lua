@@ -44,4 +44,5 @@ return require('packer').startup(function(use)
       config = function() require("nvim-autopairs").setup {} end
   }
   use("github/copilot.vim")
+  use("jlcrochet/vim-razor")
 end)

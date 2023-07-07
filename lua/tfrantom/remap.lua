@@ -18,8 +18,8 @@ vim.keymap.set("n", "<C-k>", "<C-w>k")
 vim.keymap.set("n", "<C-l>", "<C-w>l")
 vim.keymap.set("n", "<C-t>", ":sp<CR> :terminal<CR>")
 vim.keymap.set("t", "<Esc>", "<C-\\><C-n>")
-vim.keymap.set('n', '<leader>sk', '<C-w>t<C-w>K') -- change vertical to horizontal
-vim.keymap.set('n', '<leader>sh', '<C-w>t<C-w>H') -- change horizontal to vertical
+vim.keymap.set('n', '<leader>mh', '<C-w>t<C-w>K') -- change vertical to horizontal
+vim.keymap.set('n', '<leader>mv', '<C-w>t<C-w>H') -- change horizontal to vertical
 
 -- next greatest remap ever : asbjornHaland
 vim.keymap.set({"n", "v"}, "<leader>y", [["+y]])
@@ -30,5 +30,5 @@ vim.keymap.set("x", "<leader>p", [["_dP]])
 
 vim.keymap.set("n", "<leader>epp", "<cmd>e ~/AppData/Local/nvim/lua/tfrantom/packer.lua<CR>")
 
-vim.api.nvim_set_keymap('i', '<C-/>', 'copilot#Accept("<CR>")', {expr=true, silent=true})
+--vim.api.nvim_set_keymap('i', '<C-/>', 'copilot#Accept("<CR>")', {expr=true, silent=true})
 -- 
