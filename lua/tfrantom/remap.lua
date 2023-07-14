@@ -30,5 +30,3 @@ vim.keymap.set("x", "<leader>p", [["_dP]])
 
 vim.keymap.set("n", "<leader>epp", "<cmd>e ~/AppData/Local/nvim/lua/tfrantom/packer.lua<CR>")
 
---vim.api.nvim_set_keymap('i', '<C-/>', 'copilot#Accept("<CR>")', {expr=true, silent=true})
--- 

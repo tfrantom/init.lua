@@ -45,4 +45,8 @@ return require('packer').startup(function(use)
   }
   use("github/copilot.vim")
   use("jlcrochet/vim-razor")
+  use("feline-nvim/feline.nvim")
+  use("jose-elias-alvarez/null-ls.nvim")
+  use("nvim-treesitter/nvim-treesitter-context")
+
 end)
