@@ -15,7 +15,8 @@ return require('packer').startup(function(use)
   	vim.cmd('colorscheme rose-pine')
 	end
   })
-  use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
+
+  use({'nvim-treesitter/nvim-treesitter', run = ':TSUpdate'})
   use('theprimeagen/harpoon')
   use('mbbill/undotree')
   use('tpope/vim-fugitive')
@@ -43,7 +44,6 @@ return require('packer').startup(function(use)
       "windwp/nvim-autopairs",
       config = function() require("nvim-autopairs").setup {} end
   }
-  use("github/copilot.vim")
   use("jlcrochet/vim-razor")
   use("feline-nvim/feline.nvim")
   use("jose-elias-alvarez/null-ls.nvim")
