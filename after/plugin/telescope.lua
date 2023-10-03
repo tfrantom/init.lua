@@ -15,6 +15,7 @@ vim.keymap.set('n', '<leader>ld', builtin.diagnostics, {})
 vim.keymap.set('n', '<leader>gi', builtin.lsp_implementations)
 vim.keymap.set('n', '<leader>gr', builtin.lsp_references)
 vim.keymap.set('n', '<leader>qf', builtin.quickfix, {})
+vim.keymap.set('n', '<leader>ft', builtin.treesitter)
 
 
 

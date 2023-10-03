@@ -4,6 +4,8 @@ vim.keymap.set("n", "<leader>qq", ":qa!<CR>")
 vim.keymap.set("n", "<leader>qw", ":q!<CR>")
 vim.keymap.set("n", "<C-q>", ":wqa!<CR>")
 
+vim.keymap.set("n", "<C-p", ":TSContextToggle<CR>")
+
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
